@@ -313,7 +313,10 @@
                         </div>
 
                         <div class="right">
-                            <form id="contactform" class="form-contact-us style-bg-dark-2 px-md-15" method="post" action="./contact/contact-process.php">
+                            <form id="contactform" class="form-contact-us style-bg-dark-2 px-md-15" method="post" action="https://api.web3forms.com/submit">
+                                <input type="hidden" name="access_key" value="da468787-b28f-40bc-94e1-ad52b47f49c3">
+                                 <input type="hidden" name="subject" value="New Contact Form Submission">
+                                <input type="hidden" name="redirect" value="https://ray-webby.github.io/client-sito/">
                                 <div class="cols mb-37 g-30">
                                     <fieldset class="item">
                                         <label for="name" class="sub-title body-2 fw-5">Full Name</label>
@@ -327,7 +330,7 @@
                                         <label for="mail" class="sub-title body-2 fw-5">Email Address</label>
                                         <fieldset class="position-relative">
                                             <i class="icon-email"></i>
-                                            <input type="email" name="mail" id="mail" placeholder="Email" value="support@gmail.com" required>
+                                            <input type="email" name="email" id="email" placeholder="Email" value="support@gmail.com" required>
                                         </fieldset>
                                     </fieldset>
                                 </div>
