@@ -206,7 +206,7 @@
                         },
                         success: function (msg) {
                             var result, cls;
-                            if (msg === "Success") {
+                            if (msg && msg.success === true) {
                                 result = "Message Sent Successfully To Email Administrator";
                                 cls = "msg-success";
                             } else {
